@@ -9,13 +9,12 @@ def generate_launch_description():
             name='ntrip_client',
             output='screen',
             parameters=[
-                {'ip': '120.253.239.161'},  # Change to the IP address of Your NTRIP service
-                {'port': 8002},  # Change to your port number, WGS84
-                {'user': 'Your_User_Name'},  # Change to your username
-                {'passwd': 'Your_Password'},  # Change to your password
-                {'mountpoint': 'RTCM33_GRCE'},  # Change to your mountpoint
+                {'ip': '199.184.151.36'},  # Ip
+                {'port': 2101},  # Change to your port number, WGS84
+                {'user': 'MSTKRT03'},  # Change to your username
+                {'passwd': '29YK5SJ6S83W'},  # Change to your password
+                {'mountpoint': 'RTK_SNUS_X'},  # Change to your mountpoint
                 {'report_interval': 1} # the report interval to the NTRIP Caster, default is 1 sec
             ]
         ),
     ])
-    
