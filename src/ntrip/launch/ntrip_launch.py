@@ -13,7 +13,7 @@ def generate_launch_description():
                 {'port': 2101},  # Change to your port number, WGS84
                 {'user': 'MSTKRT03'},  # Change to your username
                 {'passwd': '29YK5SJ6S83W'},  # Change to your password
-                {'mountpoint': 'RTK_SNUS_X'},  # Change to your mountpoint
+                {'mountpoint': 'RTK_SNYU_32'},  # Change to your mountpoint
                 {'report_interval': 1} # the report interval to the NTRIP Caster, default is 1 sec
             ]
         ),
