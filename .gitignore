@@ -1,5 +1,9 @@
-*.cpp.o
+/log/
+/build/
+/install/
+/.vscode/
+/src/.vscode/
+*.o
 *.dpp
 *.d
-*.o
 *.a
